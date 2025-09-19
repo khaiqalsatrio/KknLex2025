@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kampung Kloposawit - Sentra Salak Pondoh Sleman</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <style>
+      /* Membuat logo dalam border lingkaran */
+      .logo-circle {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #198754; /* hijau bootstrap */
+        padding: 2px;
+        background-color: #fff; /* biar rapi */
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top"
+    >
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img
+            src="images/logokloposawit.jpg"
+            alt="logo"
+            class="me-2 logo-circle"
+          />
+          <strong>Kloposawit</strong>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tentang">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#potensi">Potensi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galeri">Galeri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="py-5 bg-light">
+      <div class="container d-flex flex-column flex-lg-row align-items-center">
+        <div class="col-lg-6 mb-4 pe-lg-5">
+          <h1 class="fw-bold">Kampung Kloposawit</h1>
+          <p>
+            Desa wisata di Sleman, Turi, Yogyakarta yang dikenal sebagai
+            penghasil buah <b>Salak Pondoh terbaik</b>. Rasakan manis segarnya
+            langsung dari kebunnya.
+          </p>
+          <a href="#tentang" class="btn btn-primary">Jelajahi</a>
+        </div>
+
+        <div class="col-lg-6">
+          <img
+            src="images/kebunsalak.jpg"
+            alt="Kebun Salak"
+            class="img-fluid rounded shadow"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Tentang -->
+    <section id="tentang" class="py-5">
+      <div class="container text-center">
+        <h2 class="fw-bold mb-3">Tentang Kampung Kloposawit</h2>
+        <p class="text-muted mb-5">
+          Kampung Kloposawit terletak di Kecamatan Turi, Sleman, Yogyakarta.
+          Tanah subur dari lereng Merapi membuatnya cocok untuk budidaya salak
+          pondoh. Desa ini juga menawarkan wisata edukasi, agrowisata, dan
+          pengalaman memetik salak langsung.
+        </p>
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-4">
+            <img
+              src="images/buahsalak.jpg"
+              alt="Salak Pondoh"
+              class="img-fluid rounded shadow"
+            />
+          </div>
+          <div class="col-lg-6 text-start">
+            <h3>Salak Pondoh Khas Sleman</h3>
+            <p>
+              Salak pondoh dari Kloposawit manis legit tanpa sepat, daging tebal
+              dan segar. Ikon pertanian Yogyakarta yang mendunia.
+            </p>
+            <a href="#potensi" class="btn btn-outline-primary">Lihat Potensi</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Potensi -->
+    <section id="potensi" class="py-5 bg-light">
+      <div class="container text-center">
+        <h2 class="fw-bold mb-3">Potensi Kampung</h2>
+        <p class="text-muted mb-5">
+          Selain sebagai sentra salak pondoh, Kloposawit juga punya potensi
+          agrowisata, kuliner, dan budaya lokal.
+        </p>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="images/buahsalak2.jpg"
+                class="card-img-top"
+                alt="Salak"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Sentra Salak</h5>
+                <p class="card-text">
+                  Produksi ribuan ton salak pondoh setiap musim panen dengan
+                  kualitas ekspor.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="images/agrowisata.jpg"
+                class="card-img-top"
+                alt="Agrowisata"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Agrowisata</h5>
+                <p class="card-text">
+                  Wisata edukasi pertanian salak, petik buah, hingga homestay di
+                  desa.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="images/olahansalak.jpg"
+                class="card-img-top"
+                alt="Olahan"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Kuliner Salak</h5>
+                <p class="card-text">
+                  Dodol, keripik, hingga sirup salak khas Kloposawit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeri -->
+    <section id="galeri" class="py-5">
+      <div class="container text-center">
+        <h2 class="fw-bold mb-3">Galeri Kampung</h2>
+        <p class="text-muted mb-5">
+          Suasana kampung, kebun salak, hingga aktivitas warga Kloposawit.
+        </p>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <img
+              src="images/kampung1.jpg"
+              class="img-fluid rounded shadow"
+              alt="Galeri 1"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="images/kampung2.jpg"
+              class="img-fluid rounded shadow"
+              alt="Galeri 2"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              src="images/kampung3.jpg"
+              class="img-fluid rounded shadow"
+              alt="Galeri 3"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="bg-dark text-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <h5>Kontak</h5>
+            <p><i class="fas fa-phone"></i> +62 812-3456-7890</p>
+            <p><i class="fas fa-envelope"></i> keloposawit@sleman.go.id</p>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> Turi, Sleman, Yogyakarta
+            </p>
+          </div>
+          <div class="col-md-6 mb-3">
+            <h5>Sosial Media</h5>
+            <p><i class="fab fa-facebook-f"></i> Facebook</p>
+            <p><i class="fab fa-instagram"></i> Instagram</p>
+            <p><i class="fab fa-youtube"></i> YouTube</p>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          © 2025 <span class="text-warning">Kloposawit</span> | Semua Hak
+          Dilindungi
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
